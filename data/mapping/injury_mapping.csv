@@ -1,0 +1,369 @@
+id,name
+1,Kreuzbandriss
+2,Kreuzbandanriss
+3,Wadenbeinbruch
+4,Schienbeinbruch
+5,Schien- und Wadenbeinbruch
+6,Syndesmosebandriss
+7,Meniskusschaden
+9,Grippe
+10,Muskelfaserriss
+11,Zerrung
+12,Muskelriss
+13,Adduktorenverletzung
+15,Knorpelschaden
+16,Nasenbeinbruch
+17,Jochbeinbruch
+18,Schädelbasisbruch
+19,Bandscheibenvorfall
+20,Außenbandriss Knie
+21,Außenbandriss Sprunggelenk
+22,Außenbandanriss Knie
+23,Außenbandanriss Sprunggelenk
+24,Innenbandriss Knie
+25,Innenbandriss Sprunggelenk
+26,Innenbandanriss Knie
+27,Innenbandanriss Sprunggelenk
+28,Bänderdehnung
+29,Achillessehnenanriss
+30,Achillessehnenriss
+31,Patellasehnenprobleme
+32,Patellasehnenriss
+33,Zehenbruch
+34,Fußbruch
+35,Armbruch
+36,Gehirnerschütterung
+37,Schambeinprellung
+38,Schambeinreizung
+39,Schambeinentzündung
+40,Mittelfußbruch
+41,Entzündung im Wadenbeinköpfchen
+42,Oberschenkelprobleme
+44,Hüftprobleme
+45,Muskelverhärtung
+47,Knieprobleme
+48,Prellung
+49,Rippenbruch
+50,Achillessehnenreizung
+51,Fersensporn
+52,Haarriss in der Muskulatur
+53,Muskelbündelriss
+54,Fieber
+55,Erkältung
+56,Magen-Darm-Grippe
+57,Ermüdungsbruch
+58,muskuläre Probleme
+59,Sehnenentzündung
+60,Blinddarmentzündung
+61,Ellenbogenverletzung
+62,Kapselverletzung
+63,Kahnbeinbruch
+64,Rückenprobleme
+65,Schulterverletzung
+66,Zehenverletzung
+67,Bauchmuskelzerrung
+68,pfeiffersches Drüsenfieber
+69,Schlüsselbeinbruch
+70,Zahnschmerzen
+71,Pferdekuss
+72,Bluterguss
+73,Blutvergiftung
+74,Handbruch
+75,Zyste im Knie
+76,Nierentumor
+77,Schnittwunde
+78,Knochenstauchung
+79,Überdehnung des Syndesmosebandes
+80,Verrenkungsbruch des Sprunggelenks
+81,Patellasehnen-Teileinriss
+82,Patellasehnenanriss
+83,Syndesmosebandanriss
+84,Zerrung in der Oberschenkel- und Gesäßmuskulatur
+85,Rückenprellung
+86,Daumenverletzung
+87,Daumenbruch
+88,Fingerverletzung
+89,Fingerbruch
+90,allergische Reaktion
+91,Mittelhandbruch
+92,Luxation der Kniescheibe
+93,Leistenprobleme
+94,Sehnenriss
+95,Sehnenanriss
+96,doppelter Bänderriss
+97,Lungeneinriss
+98,Bänderriss Sprunggelenk
+99,Knöchelverletzung
+100,Schienbeinprellung
+101,unbekannte Verletzung
+102,Herzprobleme
+103,Beinbruch
+104,Rippenprellung
+105,Leistenbruch
+106,Innenbandanriss
+107,Seitenbandzerrung Knie
+108,krank
+109,Kreuzbandoperation
+110,Ischiasprobleme
+111,Hodenriss
+112,Teilabriss der Plantar-Faszie
+113,Hexenschuss
+114,Kieferbruch
+115,Malaria
+116,Wadenverhärtung
+117,Wadenprobleme
+118,Risswunde
+119,Augenbogenbruch
+120,Wadenmuskelriss
+121,Probleme im Fußgewölbe
+122,Sprunggelenksverletzung
+123,Halswirbelbruch
+124,Venenverschluss
+125,Knochenmarkschwellung
+126,Bänderverletzung
+127,Stirnbeinbruch
+128,Zyste in der Lunge
+129,offene Wunde
+130,Fleischwunde
+131,Muskelfasereinriss
+132,Lungenentzündung
+133,Viruserkrankung
+134,Zyste in der Ferse
+135,Trommelfellriss
+136,Hörschaden
+137,Verstauchung des Sprunggelenks
+138,Innenbandzerrung
+139,Stressreaktion des Knochens
+140,Milzinfarkt
+141,Knochenriss
+142,Kreislaufprobleme
+143,Gehörtrauma
+144,Kniescheibenbruch
+145,Entzündung der Bizepssehne im Oberschenkel
+146,Felsenbeinbruch im Ohr
+147,Seitenbandriss Knie
+148,Haarriss im Lendenwirbelbereich
+149,Bänderriss in der Fußwurzel
+150,Meniskuseinriss
+151,Außenmeniskuseinriss
+152,Fersenverletzung
+153,Entzündung der Bauchspeicheldrüse
+154,Achillessehnenoperation
+155,Nierenstein-OP
+156,Mandelentzündung
+157,Innenbandriss
+158,Kapselriss Zehengelenk
+159,Handgelenksbruch
+160,Gleichgewichtsstörung
+161,Seitenbandanriss Knie
+162,Muskelquetschung
+163,Magenprobleme
+164,Außenbandprobleme
+165,Knie-OP
+166,Operation
+167,Verbrennung
+168,Knöchelbruch
+169,Handgelenksverletzung
+170,Schleudertrauma
+171,Nackenprellung
+172,Schultereckgelenkssprengung
+173,Ellenbruch
+174,Haarriss im Wadenbein
+175,Achillessehnenprobleme
+176,Leistenzerrung
+177,Kopfverletzung
+178,Innenbanddehnung Knie
+179,Nasen-OP
+180,Gürtelrose
+181,Arthroskopie
+182,Schweinegrippe
+183,Schulterbruch
+184,Schienbeinverletzung
+187,Verkehrsunfall
+188,Knochenödem
+189,Kompartmentsyndrom
+190,Mittelfußprellung
+191,Patellasehenluxation
+192,Bänderriss Knie
+193,Meningitis
+194,Fußverletzung
+195,Knieverletzung
+196,Angina
+197,Handverletzung
+198,Muskelzerrung
+199,Überdehnung
+200,Sportlerleiste
+201,Bronchitis
+202,Sehnenlängsriss
+203,Blessur
+204,kleinere Blessur
+206,Verstauchung
+207,Unterarmbruch
+208,Kreuzbanddehnung
+209,Beinhautentzündung
+210,Operation am Knöchel
+211,Meniskusverletzung
+212,Infekt
+213,Adduktorenbeschwerden
+214,Fußoperation
+216,Wirbelverletzung
+217,Schleimbeutelentzündung
+218,Beckentumor
+219,Halswirbelsäulenverletzung
+220,Tumor in der Leber
+221,Lendenwirbel-Probleme
+222,Jochbeinprellung
+223,Teilschädigung am Kreuzband
+224,Blinddarmoperation
+225,Beckenschiefstand
+226,Pneumothorax
+228,Bruch der Augenhöhle
+229,Knochenentzündung
+230,Schrauben/Nägel entfernen
+231,Depression/Burnout
+232,Beckenverletzung
+233,Blockade im Rücken
+234,Loch im Trommelfell
+235,Schädelbruch
+236,Nierenprobleme
+237,Innenbandverletzung
+238,Insektenstich
+239,Schienbeinkopfprellung
+241,Kapselriss
+242,Muskelteilabriss
+243,Zahnentzündung
+244,Hüftverletzung
+246,Fußprellung
+247,Hodenkrebs
+248,Augenverletzung
+249,Hüftprellung
+250,entzündete Wunde
+251,Leistenoperation
+252,Bänderanriss Knie
+253,Bänderanriss Sprunggelenk
+254,Seitenbandriss Sprunggelenk
+255,Seitenbandanriss Sprunggelenk
+256,Außenbandriss
+257,Außenbandanriss
+258,Bänderriss
+259,Bänderanriss
+260,Seitenbandriss
+261,Seitenbandanriss
+262,Hirnblutung
+263,Entzündung im Knie
+264,Lendenwirbelbruch
+265,Seitenband-Verletzung
+266,Darmvirus
+267,Muskelfaserriss im Adduktorenbereich
+268,Lungenprellung
+269,Mittelgesichtsbruch
+270,Lebensmittelvergiftung
+271,Entzündung
+272,Distorsion am Knöchel
+273,Innenbandabriss
+274,Bänderentzündung im Knie
+275,Muskelermüdung
+276,Zahn-OP
+277,Blutgerinnsel in der Lunge
+278,Ödem im Knie
+279,Oberschenkelbruch
+280,Oberschenkelhalsbruch
+281,Kreuzbandzerrung
+282,Knieprellung
+283,Gesichtsfraktur
+284,Bruch
+285,Lebertransplantation
+286,Sehnenreizung
+287,Adduktorenabriss
+288,Zyste am Kiefer
+289,Prellung am Fußgelenk
+290,Prellung am Knie
+291,Verletzung des Beinbeugermuske
+292,Impingement-Syndrom
+293,Lymphdrüsenkrebs
+294,Bone-Bruise-Syndrom
+295,Fissur des Wadenbeins
+296,Schultereckgelenksprellung
+297,Entzündung der Fußsohle
+298,Nasenverletzung
+299,Oberschenkelverletzung
+300,Oberschenkelzerrung
+301,Rückenverletzung
+302,Wadenverletzung
+303,Muskelverletzung
+304,Achillesfersenprobleme
+305,Leistenverletzung
+306,Schlag
+307,Verletzung am Fußgelenk
+308,Gesichtsverletzung
+309,Verletzung der Bauchmuskulatur
+310,Kontraktur
+311,Kreuzbandverletzung
+312,Beinverletzung
+313,Nackenverletzung
+314,Windpocken
+315,Probleme im rechten Hüftbeuger
+316,Probleme im linkem Hüftbeuger
+317,Darm-OP
+318,Muskelkater
+319,Tuberkulose
+320,kollabierte Lunge
+321,Abszess
+322,Knocheneinblutung im Oberschen
+323,Rissquetschwunde
+324,Bauchbeschwerden
+325,Armverletzung
+326,Stirnhöhlenbruch
+327,Steißbeinfistel
+328,Bruch des Wadenbeinschaftes
+329,Krampfader
+330,Peroneussehnenverletzung
+331,eingeklemmter Nerv
+332,Koma
+333,Entzündung in der Wirbelsäule
+334,Steißbeinprellung
+335,Stauchung der Wirbelsäule
+336,Verrenkung
+337,verstauchter Knöchel
+338,Patellasehnenspitzensyndrom
+339,Knochenprellung
+340,Achillessehnenquetschung
+341,Knochenabsplitterung
+342,Haarriss im Fuß
+343,Bluterguss am Schienbein
+344,Jochbein-OP
+345,Schlaganfall
+346,Wadenzerrung
+347,Fersenprobleme
+348,Meniskusriss
+349,Bluterguss am Sprunggelenk
+350,Bauchnabelbruch
+351,Kahnbein-OP
+352,Entzündung im Sprunggelenk
+353,Meniskusreizung
+354,Patellasehnenreizung
+355,Trainingsrückstand
+356,Hühnerauge
+357,Haarriss im Mittelfinger
+358,Kapselriss Sprunggelenk
+359,Hautkrebs
+360,Sprunggelenksprobleme
+361,Oberschenkelmuskelriss
+362,Nervenwurzelentzündung im Rücken
+363,Hauterkrankung
+364,Schusswunde
+365,Schonung
+366,grippaler Infekt
+367,Bruch des Oberarmkopfes
+368,Probleme im Hüftbeuger
+369,Krebs
+370,Milzruptur
+371,Unterschenkelbruch
+372,Beckenprellung
+373,Platzwunde
+374,Corona-Virus
+375,Viruserkrankung
+376,Quarantäne
+377,Brustverletzung
+379,Nervenkrankheit
+380,Gehörgangsfraktur

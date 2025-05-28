@@ -1,0 +1,14 @@
+{
+  "head": 1,
+  "shoulder": 2,
+  "chest": 3,
+  "back": 4,
+  "arm": 5,
+  "abdomen": 6,
+  "pelvis": 7,
+  "leg": 8,
+  "foot": 9,
+  "illness": 10,
+  "general": 11,
+  "misc": 12
+}
