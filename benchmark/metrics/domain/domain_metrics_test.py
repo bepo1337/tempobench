@@ -1,14 +1,11 @@
-import json
-import pandas as pd
 import unittest
 
-from benchmark import ValidityEndBeforeStart, ValiditiyMaxTimeMetricName, ValidityOverlapMetricName
-from benchmark.metrics.domain.domain_metrics import all_domain_metrics, all_domain_metrics_dict
+from benchmark import ValiditiyMaxTimeMetricName, ValidityOverlapMetricName
+from benchmark.metrics.domain.domain_metrics import all_domain_metrics_dict
 from benchmark.metrics.domain.monotonic_increase import MonotonicIncreaseMetricName
-from benchmark.metrics.domain.no_tuple_valid_beyond_end_of_june import NoTupleValidBeyondEndOfJuneMetricName
 from benchmark.metrics.domain.static_data_remains_unchanged import StaticDataRemainsUnchangedMetricName
 from benchmark.metrics.domain.timestamp_min_max import TimestampMinMaxMetricName
-from benchmark.metrics.domain.validity_end_before_start import ValidityEndBeforeStartMetricName
+from benchmark.metrics.sanity.validity_end_before_start import ValidityEndBeforeStartMetricName
 from benchmark.utils import load_real_data
 
 

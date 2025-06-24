@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 from benchmark.utils import VALIDITY_START, VALIDITY_END
-from benchmark.metrics.domain.validity_end_before_start import ValidityEndBeforeStart
+from benchmark.metrics.sanity.validity_end_before_start import ValidityEndBeforeStart
 
 def date_string_to_datetime(date_str):
     return datetime.strptime(date_str, "%Y-%m-%d")

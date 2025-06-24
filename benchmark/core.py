@@ -7,10 +7,9 @@ from benchmark.metrics import BenchmarkMetric
 from benchmark.metrics.domain.monotonic_increase import MonotonicIncrease, MonotonicIncreaseMetricName
 from benchmark.metrics.domain.static_data_remains_unchanged import StaticDataRemainsUnchanged,   StaticDataRemainsUnchangedMetricName
 from benchmark.metrics.domain.timestamp_min_max import TimestampMinMaxMetricName, TimestampMinMax
-from benchmark.metrics.domain.validity_end_before_start import ValidityEndBeforeStart
+from benchmark.metrics.sanity.validity_end_before_start import ValidityEndBeforeStart
 from benchmark.metrics.domain.validity_max_time import ValiditiyMaxTimeMetricName, ValidityMaxTime
-from benchmark.metrics.domain.validity_overlap import ValidityOverlapMetricName, ValidityOverlap
-from benchmark.metrics.statistical import *
+from benchmark.metrics.sanity.validity_overlap import ValidityOverlapMetricName, ValidityOverlap
 import benchmark.utils as utils
 from benchmark.metrics.statistical.correlation import Correlation, CorrelationMetricName
 from benchmark.metrics.statistical.elementary_statistics import ElementaryStatisticsMetricName, ElementaryStatistics
@@ -36,8 +35,7 @@ from benchmark.visualizations.gspvisualization import GSPVisualization, GSPVisua
 from benchmark.visualizations.injury_per_month import InjuriesPerMonthVisualizationName, InjuriesPerMonthVisualization
 from benchmark.visualizations.market_value_per_season import MarketValuePerSeasonVisualizationName, \
     MarketValuePerSeasonVisualization
-from benchmark.visualizations.marginal_dis_visualization import MarginalDistributionVisualization, \
-    MarginalDistributionVisualization, MarginalDistributionVisualizationName
+from benchmark.visualizations.marginal_dis_visualization import MarginalDistributionVisualization, MarginalDistributionVisualizationName
 from benchmark.visualizations.sequence_lengths import SequenceLengthsVisualizationName, SequenceLengthsVisualization
 from benchmark.visualizations.sequence_lengths_excerpt_to_ten import SequenceLengthsToTenVisualizationName, \
     SequenceLengthsToTenVisualization

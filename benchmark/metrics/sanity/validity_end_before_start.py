@@ -22,7 +22,7 @@ class ValidityEndBeforeStart(BenchmarkMetric):
         return ValidityEndBeforeStartMetricName
 
     def category(self) -> str:
-        return Category.DOMAIN.value
+        return Category.SANITY.value
 
     def end_before_start(self, start, end: str) -> bool:
         start = date_string_to_datetime(start)

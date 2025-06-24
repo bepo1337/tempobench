@@ -6,6 +6,12 @@
         },
         "DuplicateRows": {
             "proportion": 0.0
+        },
+        "ValidityEndBeforeStart": {
+            "proportion": 0.4245668404000563
+        },
+        "ValidityOverlap": {
+            "proportion": 0.3823266884855698
         }
     },
     "DOMAIN": {
@@ -28,15 +34,9 @@
         "TimestampMinMax": {
             "proportion": 0.09427887227577325
         },
-        "ValidityEndBeforeStart": {
-            "proportion": 0.4245668404000563
-        },
         "ValidityMaxTime": {
             "proportion": 0.0016300082506590465
         },
-        "ValidityOverlap": {
-            "proportion": 0.3823266884855698
-        }
     },
     "STATISTICAL": {
         "Correlation": {

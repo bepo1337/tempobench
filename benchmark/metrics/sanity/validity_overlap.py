@@ -36,7 +36,7 @@ class ValidityOverlap(BenchmarkMetric):
         return ValidityOverlapMetricName
 
     def category(self) -> str:
-        return Category.DOMAIN.value
+        return Category.SANITY.value
 
     def start_before_or_equal_to_prev_end(self, row_start, prev_row_end) -> bool:
         curr_start = date_string_to_datetime(row_start)
