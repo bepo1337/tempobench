@@ -11174,23 +11174,6 @@
             "recall": 0,
             "error": "timeout; mining of synthetic rules took too long"
         },
-        "GeneralizedSequentialPattern": {
-            "injury_category": {
-                "precision": 0.0,
-                "recall": 0.0,
-                "f1": 0
-            },
-            "league": {
-                "precision": 0.3125,
-                "recall": 0.2777777777777778,
-                "f1": 0.29411764705882354
-            },
-            "club": {
-                "precision": 1.0,
-                "recall": 0.03278688524590164,
-                "f1": 0.06349206349206349
-            }
-        },
          "IntraClassDistance": {
             "real_icd": 60.05990988965797,
             "synth_icd": 153.99857130199825,
@@ -11247,6 +11230,23 @@
                     "syn": 0.01792558712629644,
                     "deviation": 0.9772496958755524
                 }
+            }
+        },
+        "GeneralizedSequentialPattern": {
+            "injury_category": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            },
+            "league": {
+                "precision": 0.3125,
+                "recall": 0.2777777777777778,
+                "f1": 0.29411764705882354
+            },
+            "club": {
+                "precision": 1.0,
+                "recall": 0.03278688524590164,
+                "f1": 0.06349206349206349
             }
         }
     }

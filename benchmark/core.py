@@ -16,7 +16,7 @@ from benchmark.metrics.statistical.elementary_statistics import ElementaryStatis
 from benchmark.metrics.statistical.jensen_shannon import JensenShannonMetricName, JensenShannon
 from benchmark.metrics.sanity.duplicate_rows import DuplicateRowsMetricName, DuplicateRows
 from benchmark.metrics.sanity.datatype_mismatch import DataTypeMismatchMetricName, DataTypeMismatch
-from benchmark.metrics.temporal.gsp import GeneralizedSequentialPatternMetricName, GeneralizedSequentialPattern
+from benchmark.metrics.utility.gsp import GeneralizedSequentialPatternMetricName, GeneralizedSequentialPattern
 from benchmark.metrics.temporal.incoming_nearest_neighbor import IncomingNearestNeighborMetricName, \
     IncomingNearestNeighbor
 from benchmark.metrics.temporal.intra_class_distance import IntraClassDistanceMetricName, IntraClassDistance

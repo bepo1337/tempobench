@@ -52,7 +52,7 @@ class GSPVisualization(BenchmarkVisualization):
         self.store_matplotlib_png(path, "", fig)
 
     def category(self) -> str:
-        return Category.TEMPORAL
+        return Category.UTILITY
 
     def name(self) -> str:
         return GSPVisualizationName

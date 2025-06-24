@@ -1,10 +1,8 @@
 import unittest
 import pandas as pd
 
-from benchmark import PLAYER_ID
-from benchmark.metrics.temporal.gsp import GeneralizedSequentialPattern
-from benchmark.utils import VALIDITY_START, VALIDITY_END, load_real_data, INJURY_CATEGORY, REASON, LEAGUE,CLUB
-from .mean_validity import MeanValidity
+from benchmark.metrics.utility.gsp import GeneralizedSequentialPattern
+from benchmark.utils import PLAYER_ID, VALIDITY_START, load_real_data, INJURY_CATEGORY, REASON, LEAGUE,CLUB
 
 buli = "Bundesliga"
 pl = "Premier League"
