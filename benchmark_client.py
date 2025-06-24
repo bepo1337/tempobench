@@ -1,8 +1,11 @@
 import json
 import pandas
 import benchmark
+import time
 
 if __name__ == "__main__":
+    start = time.time()
+
     # TODO change this to the name of the data/generator
     data_name = "TabSyn"
     # TODO change this line to another path if required to point to your synthetic data
@@ -37,3 +40,5 @@ if __name__ == "__main__":
 
     # starts the evaluation
     tempoBench.run()
+    duration = time.time() - start
+    print(f"Complete run took {duration:.2f} seconds")
