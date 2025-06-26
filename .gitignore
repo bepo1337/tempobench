@@ -170,3 +170,4 @@ data/archive
 workspace/
 **/ignore/**
 .idea/
+catboost_info/

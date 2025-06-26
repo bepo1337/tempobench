@@ -38,33 +38,34 @@ The structure of the repository is as follows:
 ## Implemented Metrics
 The implemented metrics are implemented. More information can be found in the thesis document.
 
-| Category           | Metric                                                                 |
-|--------------------|------------------------------------------------------------------------|
-| Sanity             | (SAN1) Duplicate rows                                                  |
-|                    | (SAN2) Datatype mismatch                                               |
-| Domain             | (D1) Manual inspection                                                 |
-|                    | (D2) Monotonic increase                                                |
-|                    | (D3) Static data remains unchanged                                     |
-|                    | (D4) Timestamp min. and max.                                           |
-|                    | (D5) Tuple validity overlap                                            |
-|                    | (D6) Validity end before start                                         |
-|                    | (D7) Maximum validity time                                             |
-| Statistical        | (S1) Elementary statistics                                             |
-|                    | (S2) Univariate distribution divergence (with visualization V1)       |
-|                    | (S4) Column correlation (with visualization V2)                       |
-| Temporal           | (T1) Incoming Nearest Neighbor Distance                                |
-|                    | (T2) Mean sequence length (with visualization V3)                     |
-|                    | (T3) Mean validity                                                     |
-|                    | (T4) Intra-class distance                                              |
-|                    | (T5) GSP                                                               |
-|                    | (T6) Update dependency                                                 |
-|                    | (T7) Transition matrix distance                                        |
-| Downstream utility | (U1) TSTR-Regression                                                   |
-| Visualization      | (V5) Events (Samples) per Month                                        |
-|                    | (V6) Injuries per Month                                                |
-|                    | (V7) Market Value per Season                                           |
-|       | (V8) Transfer Fee per Season                                           |
-|                    | (V9) Transfers per Season                                              |
+| Category           | Metric                                                          |
+|--------------------|-----------------------------------------------------------------|
+| Sanity             | (SAN1) Duplicate rows                                           |
+|                    | (SAN2) Datatype mismatch                                        |
+|                    | (SAN3) Tuple validity overlap                                   |
+|                    | (SAN4) Validity end before start                                |
+| Domain             | (D1) Manual inspection                                          |
+|                    | (D2) Monotonic increase                                         |
+|                    | (D3) Static data remains unchanged                              |
+|                    | (D4) Timestamp min. and max.                                    |
+|                    | (D5) Maximum validity time                                      |
+| Statistical        | (S1) Elementary statistics                                      |
+|                    | (S2) Univariate distribution divergence (with visualization V1) |
+|                    | (S4) Column correlation (with visualization V2)                 |
+| Temporal           | (T1) Incoming Nearest Neighbor Distance                         |
+|                    | (T2) Mean sequence length (with visualization V3)               |
+|                    | (T3) Mean validity                                              |
+|                    | (T4) Intra-class distance                                       |
+|                    | (T5) Update dependency                                          |
+|                    | (T6) Transition matrix distance                                 |
+| Downstream utility | (U1) TSTR-Regression                                            |
+|                    | (U4) GSP                                                        |
+| Visualization      | (V5) Events (Samples) per Month                                 |
+|                    | (V6) Injuries per Month                                         |
+|                    | (V7) Market Value per Season                                    |
+|                    | (V8) Transfer Fee per Season                                    |
+|                    | (V9) Transfers per Season                                       |
+
 ## Add own metric
 Own metrics can be implemented using the following interfaces and an instance passed in the configuration of TempoBench. \
 ```

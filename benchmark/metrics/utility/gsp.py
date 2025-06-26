@@ -37,7 +37,7 @@ class GeneralizedSequentialPattern(BenchmarkMetric):
         return GeneralizedSequentialPatternMetricName
 
     def category(self) -> str:
-        return Category.TEMPORAL.value
+        return Category.UTILITY.value
 
     def _possible_matches_for_each_length(self, X_real_result) -> dict:
         possible_matches_list = {}
